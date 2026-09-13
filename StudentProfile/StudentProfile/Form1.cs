@@ -9,7 +9,9 @@ namespace StudentProfile
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            MessageBox.Show(" Student Profile — GitHub Beginner Lab.");
+
+            //Output "\n" is for new line
+            MessageBox.Show("Student Profile    — GitHub Beginner Lab.\nContact Number: — 09171234567");
         }
 
         private void btnSearch_Click(object sender, EventArgs e)
@@ -20,7 +22,9 @@ namespace StudentProfile
             {
                 lblName.Text = "Name: John Doe";
                 lblID.Text = "ID: 12345";
+
                 lblYear.Text = "Year: 4th Year";
+
             }
 
             else if (studentID == "12344"){
