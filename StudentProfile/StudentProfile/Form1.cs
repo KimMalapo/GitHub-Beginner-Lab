@@ -22,7 +22,7 @@ namespace StudentProfile
             {
                 lblName.Text = "Name: John Doe";
                 lblID.Text = "ID: 12345";
-                lblYear.Text = "Year: 5th Year";
+                lblYear.Text = "Year: 6th Year";
             }
 
             else if (studentID == "12344"){
